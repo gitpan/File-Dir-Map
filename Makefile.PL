@@ -8,7 +8,9 @@ WriteMakefile
           'EXE_FILES' => [],
           'VERSION_FROM' => 'lib/File/Dir/Map.pm',
           'PREREQ_PM' => {
-                           'Test::More' => 0
+                           'Test::More' => 0,
+                           'File::Path' => '2.08',
+                           'common::sense' => '3.1'
                          }
         )
 ;
